@@ -1,0 +1,71 @@
+.atom-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.nucleus {
+    background-color: #007bff; /* Цвет ядра */
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.ring {
+    border: 2px dashed transparent;
+    border-radius: 50%;
+    position: absolute;
+    animation: rotate 10s linear infinite;
+}
+
+.ring-1 {
+    width: 100px;
+    height: 100px;
+    border-color: rgba(0, 0, 255, 0.5);
+    animation-delay: 0s;
+}
+
+.ring-2 {
+    width: 160px;
+    height: 160px;
+    border-color: rgba(0, 0, 255, 0.5);
+    animation-delay: 2s;
+}
+
+.ring-3 {
+    width: 220px;
+    height: 220px;
+    border-color: rgba(0, 0, 255, 0.5);
+    animation-delay: 4s;
+}
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes orbit {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(100%, 0); /* Перемещение электрона по окружности */
+    }
+}
+
+
