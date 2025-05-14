@@ -53,11 +53,9 @@
     font-size: 16px;
     transition: border-color 0.3s ease;
 }
-
-/* Стили при фокусе на поле ввода */
 .input-field:focus {
-    border-color: #007bff; /* Цвет рамки при фокусе */
-    outline: none; /* Убираем стандартное обводка браузера */
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Легкая тень при фокусе */
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
   

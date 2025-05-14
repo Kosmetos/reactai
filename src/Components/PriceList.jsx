@@ -1,3 +1,5 @@
+import "../Components/PriceList.css"
+
 const PriceList = ({openModal}) => {
     return (
         <section className="price-list-container">

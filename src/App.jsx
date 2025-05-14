@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Modal from './Components/Modal';
 import Logo from "./images/Logo.svg";
 import SectionObject from './Components/Objects';
+import Comments from "./Components/Comments"
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
         </div>
         </header>
         <SectionObject openModal={openModal}/>  
+        <Comments />
     </div>
   );
 }

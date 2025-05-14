@@ -1,3 +1,4 @@
+import "./Objects.css"
 import ContainerImg from "../images/ContainerImg.png"
 import Atom from './Atom';
 import PriceList from "./PriceList"
