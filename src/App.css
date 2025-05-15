@@ -18,6 +18,12 @@ body {
   display: flex;
   align-items: center;
   color: white;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.logo:hover {
+  transform: scale(1.05);
 }
 
 .logo img {
@@ -43,6 +49,11 @@ body {
 .nav-links a {
   text-decoration: none;
   color: white;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #FFE492;
 }
 
 .auth-buttons {
